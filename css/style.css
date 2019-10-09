@@ -321,6 +321,43 @@ position: absolute;
   margin-top: 589pt;
   opacity: 0.25;
 }
+.vreme{
+  position: absolute;
+}
+.koraci{
+  position: absolute;
+}
+.kalorije{
+  position: absolute;
+}
+.vreme h1{
+  width: 180pt;
+  height: 45pt;
+  font-family: Helvetica, Bold;
+  font-size: 38pt;
+  color: white;
+  margin-top: 213pt;
+  margin-left: 76pt;
+}
+.koraci h1{
+  width: 100pt;
+  height: 45pt;
+  font-family: Helvetica, Bold;
+  font-size: 38pt;
+  color: white;
+  margin-top: 355pt;
+  margin-left: 211pt;
+}
+.kalorije h1{
+  width: 64pt;
+  height: 45pt;
+  font-family: Helvetica, Bold;
+  font-size: 38pt;
+  color: white;
+  text-align: center;
+  margin-top: 461pt;
+  margin-left: 241pt;
+}
 
 /*druga strana*/
 
@@ -328,11 +365,9 @@ position: absolute;
 
 .velikibox{
   position: absolute;
-  position: absolute;
   width: 340pt;
   height: 555pt;
   background-color: #FFFFFF;
-  position: absolute;
   opacity: 100%;
   margin-left: 18pt;
   margin-top: 257pt;
@@ -340,6 +375,7 @@ position: absolute;
 }
 
 .container11{
+  margin: 0pt;
   position: absolute;
   width: 375pt;
   height: 812pt;
@@ -355,22 +391,67 @@ position: absolute;
   border-radius: 28pt;
   opacity: 0.25;
 }
-.container11 h1{
-  font-family: Helvetica, Bold;
-  color: #00B6A3;
-  font-size: 34pt;
-  width: 162pt;
+.dan h1{
+  position: absolute;
+  width: 137pt;
   height: 40pt;
-  margin-left: 27pt;
-  margin-top: 24pt;
-  margin-bottom: 10pt;
+  font-family: Helvetica,Bold;
+  font-size: 34pt;
+  color: white;
+  margin-left: 78pt;
+  margin-top: 44pt;
 }
-.container11 h2{
-  font-family: Helvetica, medium;
+.dan h2{
+  position: absolute;
+  width: 110pt;
+  height: 19pt;
+  font-family: Helvetica,Medium;
   font-size: 16pt;
-  color: #898694;
-  margin-left: 27pt;
-  margin-top: 5pt;
+  color: white;
+  margin-left: 78pt;
+  margin-top: 94pt;
+  opacity: 0.7;
+}
+
+.dnevnibrojkoraka h1{
+  position: absolute;
+  width: 125pt;
+  height: 57pt;
+  font-family: Helvetica,Bold;
+  font-size: 48pt;
+  color: #151C1F;
+  margin-left: 125pt;
+  margin-top: 399pt;
+}
+.km h1{
+  position: absolute;
+  width: 58pt;
+  height: 48pt;
+  font-family: Helvetica,Bold;
+  font-size: 40pt;
+  color: #00B6A3;
+  margin-left: 51pt;
+  margin-top: 735pt;
+}
+.km h2{
+  position: absolute;
+  width: 69pt;
+  height: 48pt;
+  font-family: Helvetica,Bold;
+  font-size: 40pt;
+  color: #00B6A3;
+  margin-left: 154pt;
+  margin-top: 735pt;
+}
+.km h3{
+  position: absolute;
+  width: 22pt;
+  height: 48pt;
+  font-family: Helvetica,Bold;
+  font-size: 40pt;
+  color: #00B6A3;
+  margin-left: 285pt;
+  margin-top: 735pt;
 }
 .container15{
   position: absolute;
@@ -519,13 +600,64 @@ position: absolute;
   margin-left: 45pt;
   margin-top: 40pt;
 }
-.btn {
-  width: 40pt;
-  height: 40pt;
-  margin-left: 28pt;
-  margin-top: 59pt;
-  background: url('../img/nazad.png' ) no-repeat ;
-  border-radius: 25%;
+.dani2 h1{
+  color: white;
   border: none;
+  font-family: Helvetica ,medium;
   position: absolute;
+  text-align: center;
+  width: 38pt;
+  height: 38pt;
+  margin-left: 29pt;
+  margin-top: 178pt;
+  font-size: 16pt;
+  opacity: 0.7;
+}
+.dani2 h2{
+  color: white;
+  font-family: Helvetica ,medium;
+  position: absolute;
+  text-align: center;
+  width: 38pt;
+  height: 38pt;
+  margin-left: 100pt;
+  margin-top: 178pt;
+  font-size: 16pt;
+  opacity: 0.7;
+}
+.dani2 h3{
+  color: white;
+  font-family: Helvetica ,medium;
+  position: absolute;
+  text-align: center;
+  width: 38pt;
+  height: 38pt;
+  margin-left: 169pt;
+  margin-top: 178pt;
+  font-size: 16pt;
+  opacity: 0.7;
+}
+.dani2 h4{
+  color: white;
+  font-family: Helvetica ,medium;
+  position: absolute;
+  text-align: center;
+  width: 38pt;
+  height: 38pt;
+  margin-left: 239pt;
+  margin-top:178pt;
+  font-size: 16pt;
+  opacity: 0.7;
+}
+.dani2 h5{
+  color: white;
+  font-family: Helvetica ,medium;
+  position: absolute;
+  text-align: center;
+  width: 38pt;
+  height: 38pt;
+  margin-left: 309pt;
+  margin-top: 178pt;
+  font-size: 16pt;
+  opacity: 0.7;
 }
