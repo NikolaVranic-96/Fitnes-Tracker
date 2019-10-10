@@ -22,6 +22,7 @@ body{
   border-radius: 28pt;
 }
 .container h1{
+  cursor: pointer;
   font-family: Helvetica, Bold;
   color: #00B6A3;
   font-size: 34pt;
@@ -39,6 +40,7 @@ body{
   margin-left: 27pt;
   margin-top: 0pt;
 }
+
 .dani h1{
   color: white;
   border: none;
@@ -115,11 +117,8 @@ body{
 }
 
 
-}
-.container1:hover{
-  cursor: pointer;
-  background: white;
-}
+
+
 .container2{
   position: absolute;
   width: 60pt;
@@ -422,6 +421,7 @@ position: absolute;
   color: #151C1F;
   margin-left: 125pt;
   margin-top: 399pt;
+  text-align: center;
 }
 .km h1{
   position: absolute;
@@ -450,8 +450,9 @@ position: absolute;
   font-family: Helvetica,Bold;
   font-size: 40pt;
   color: #00B6A3;
-  margin-left: 285pt;
+  margin-left: 270pt;
   margin-top: 735pt;
+  align-items: center;
 }
 .container15{
   position: absolute;
